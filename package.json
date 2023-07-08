@@ -1,0 +1,25 @@
+{
+  "name": "orms-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ddb:pull": "drizzle-kit introspect:mysql",
+    "pdb:pull": "prisma db pull"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "drizzle-kit": "^0.19.3",
+    "prisma": "^4.16.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "drizzle-orm": "^0.27.0",
+    "mysql2": "^3.4.5",
+    "postgres": "^3.3.5"
+  }
+}
